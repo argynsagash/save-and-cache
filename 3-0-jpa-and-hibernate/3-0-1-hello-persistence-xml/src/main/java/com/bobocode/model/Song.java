@@ -1,14 +1,12 @@
 package com.bobocode.model;
 
-import lombok.Getter;
+import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import javax.persistence.*;
 
 @NoArgsConstructor
-@Getter
-@Setter
+@AllArgsConstructor
 @Entity
 @Table(name = "song")
 public class Song {
